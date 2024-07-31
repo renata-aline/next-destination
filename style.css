@@ -1,27 +1,57 @@
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background:linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+    ;
     background-repeat: no-repeat;
     height: 100%;
 }
 
 body {
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+    font-family: 'Montserrat', 'sans-serif', 'roboto', 'Mansalva', cursive;
 }
 
-h2, footer {
+h1, h2{
+    font-family: roboto;
+}
+
+footer {
     font-family: 'Mansalva';
+    margin-top: 10px;
+}
+
+.destination{
+    width: 100%;
+    border-bottom: 1px solid #e9eef5e8;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+    box-shadow: 0 0 0 0 ;
+    outline:none;
+}
+
+.save{
+    color:#154580;
+}
+
+#place-destination ,#welcome-message{
+    text-transform: uppercase;
 }
 
 button {
     border: none;
+    background:linear-gradient(90deg, #ccc5d1 0%, #7474a0 100%);
+    
 }
 
-.itens-comprados {
-text-decoration: line-through;
+button:hover{
+    box-shadow: 1px 4px 16px rgba(122, 122, 190, 0.64);
 }
+
+
 
 .borda-lista {
-    border-bottom: dotted 2px blue;
+    border-bottom: dotted 2px #154580;
 }
 
 input:disabled {
@@ -33,5 +63,9 @@ input:disabled {
 input {
     border: none;
     background: none;
-    color: black;
+    color: #154580;
+}
+
+input:hover{
+    box-shadow: 1px 4px 16px rgba(122, 122, 190, 0.64);
 }

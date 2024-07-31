@@ -128,16 +128,17 @@ function saveEdit() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    document.addEventListener('DOMContentLoaded', () => {
+        const placeInput = document.getElementById('place-destination');
+        const welcomeMessage = document.getElementById('welcome-message');
+    
+        placeInput.addEventListener('input', () => {
+            const placeName = placeInput.value.trim();
+            if (placeName) {
+                welcomeMessage.textContent = `Welcome to ${placeName}!`;
+            } else {
+                welcomeMessage.textContent = '';
+            }
+        });
+    });
+    
