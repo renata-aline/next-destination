@@ -8,6 +8,10 @@ const attractionsInput = document.getElementById("receive-item");
 const ulAttractions = document.getElementById("list-of-attractions");
 const ulAttractionVisited = document.getElementById("attractions-visited");
 
+function updateLocalStorage() {
+    localStorage.setItem('listAttractions', JSON.stringify(listAttractions))
+}
+
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   saveAttraction();
@@ -101,6 +105,8 @@ function showAttraction() {
          showAttraction()
       })
     })
+
+    updateLocalStorage()
 }
 
 function saveEdit() {
