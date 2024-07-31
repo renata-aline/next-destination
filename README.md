@@ -19,3 +19,7 @@ _Utilizei métodos do JavaScript que possibilitam remover, editar, adicionar e s
 _Implementei métodos para tratar dados e salvá-los no localStorage;
 
 _Utilizei o JSON para viabilizar a transferência de dados para uma API;
+
+*link do projeto*
+
+ https://renata-aline.github.io/next-destination/
