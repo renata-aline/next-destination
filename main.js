@@ -8,8 +8,18 @@ const attractionsInput = document.getElementById("receive-item");
 const ulAttractions = document.getElementById("list-of-attractions");
 const ulAttractionVisited = document.getElementById("attractions-visited");
 
+const recoveredList = localStorage.getItem('listAttractions')
+
+
 function updateLocalStorage() {
     localStorage.setItem('listAttractions', JSON.stringify(listAttractions))
+}
+
+if(recoveredList){
+  listAttractions = JSON.parse(recoveredList) 
+  showAttraction() 
+}else{
+    listAttractions = []
 }
 
 form.addEventListener("submit", function (event) {
