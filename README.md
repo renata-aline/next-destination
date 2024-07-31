@@ -1,9 +1,9 @@
-**Projeto Lista de Pontos turísticos para ser visitados na próxima viagem. 
+***Projeto Lista de Pontos turísticos para ser visitados na próxima viagem.***
 
 
-*projeto realizado para colocar em prática alguns  conhecimentos em javascript.
+*projeto realizado para colocar em prática alguns  conhecimentos em javascript.*
 
-**Principais pontos abordados:
+**Principais pontos abordados:**
 
 
 _Como criar objetos  a partir das informações passadas pela pessoa usuária;
